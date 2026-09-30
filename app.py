@@ -10,8 +10,8 @@ def encode_image(image_file):
 
 st.set_page_config(page_title="Analisis de imagen", layout="centered", initial_sidebar_state="collapsed")
 # Streamlit page setup
-st.title("Análisis de Imagen:🤖🏞️")
-ke = st.text_input('Ingresa tu Clave')
+st.title("Análisis de mirada gatuna de Imagen:🤖🏞️")
+ke = st.text_input('Ingresa tu Clave (El gato la sabe, solo dicela)')
 os.environ['OPENAI_API_KEY'] = ke
 
 
